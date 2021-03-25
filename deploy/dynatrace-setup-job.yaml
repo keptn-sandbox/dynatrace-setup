@@ -1,0 +1,12 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: dynatrace-setup-job
+spec:
+  template:
+    spec:
+      containers:
+      - name: dynatrace-setup
+        image: keptnsandbox/dynatrace-setup:latest
+      restartPolicy: Never
+  backoffLimit: 0
