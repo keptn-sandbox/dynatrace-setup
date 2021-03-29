@@ -7,6 +7,7 @@ spec:
     spec:
       containers:
       - name: dynatrace-setup
-        image: keptnsandbox/dynatrace-setup:latest
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+      serviceAccountName: keptn-default
       restartPolicy: Never
   backoffLimit: 0
