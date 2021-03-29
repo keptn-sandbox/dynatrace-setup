@@ -1,0 +1,4 @@
+# Default values for dynatrace-setup.
+image:
+  repository: keptnsandbox/dynatrace-setup
+  tag: "0.1.1"
