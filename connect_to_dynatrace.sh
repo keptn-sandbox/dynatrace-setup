@@ -7,7 +7,7 @@ echo "===================================================="
 DT_TENANT=${DT_TENANT:-none}
 DT_API_TOKEN=${DT_API_TOKEN:-none}
 CA_TENANT=${CA_TENANT:-none}
-CA_TOKEN=${CA_TOKEN:-none}
+CA_API_TOKEN=${CA_API_TOKEN:-none}
 SECRET_NAME=${SECRET_NAME:-none}
 HTTP_METHOD=${HTTP_METHOD:-none}
 
